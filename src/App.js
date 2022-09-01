@@ -40,7 +40,7 @@ function App() {
       });
 
       // Add the widget to the top-right corner of the view
-      view.ui.add(bkExpand, "top-right");
+      view.ui.add(bkExpand, "top-left");
 
       // bonus - how many bookmarks in the webmap?
       webmap.when(() => {
